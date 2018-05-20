@@ -1,0 +1,6 @@
+const STRIP_ZERO_AND_DECIMAL_POINT = 2
+const SUFFICIENT_LENGTH_TO_PREVENT_COLLISION = 5
+
+const clientId = Math.random().toString().substr(STRIP_ZERO_AND_DECIMAL_POINT, SUFFICIENT_LENGTH_TO_PREVENT_COLLISION)
+
+export default clientId

@@ -1,0 +1,15 @@
+{
+  "name": "perfit",
+  "version": "1.0.0",
+  "bin": {
+    "perfit": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmloegcmluin/perfit.git"
+  },
+  "dependencies": {
+    "csv-parse": "^2.2.0",
+    "useragent": "^2.3.0"
+  }
+}

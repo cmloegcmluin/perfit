@@ -1,0 +1,18 @@
+import {DEFAULT_BASE_MODE, DEFAULT_OUTPUT_PATH, DEFAULT_SERVER_PORT} from '../constants'
+
+const DEFAULT_FPS = 60
+const DEFAULT_MEASUREMENT_COUNT = 8192
+const DEFAULT_MEASUREMENT_SHAVE_COUNT = 16
+const DEFAULT_RECORDING_DELAY = 3000
+
+const config = {
+    baseMode: DEFAULT_BASE_MODE,
+    outputPath: DEFAULT_OUTPUT_PATH,
+    serverPort: DEFAULT_SERVER_PORT,
+    fps: DEFAULT_FPS,
+    measurementCount: DEFAULT_MEASUREMENT_COUNT,
+    measurementShaveCount: DEFAULT_MEASUREMENT_SHAVE_COUNT,
+    recordingDelay: DEFAULT_RECORDING_DELAY,
+}
+
+export default config
