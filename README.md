@@ -1,5 +1,7 @@
 # perfit
 
+[![npm version](https://badge.fury.io/js/perfit.svg)](https://badge.fury.io/js/perfit)
+
 "Perfit the Frog here, reporting live..."
 
 A tool for maintaining, as your code changes and grows, an ongoing record of the performance of a repeatedly-called function in a web app e.g the `animate` or `update` game loop function of a game.
